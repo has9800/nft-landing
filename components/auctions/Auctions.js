@@ -1,6 +1,7 @@
 import AuctionCard from "./AuctionCard";
 import auctionData from "./auctionData";
 import auctionStyles from "./auctions.module.css";
+import { BsArrowUpRightSquare } from "react-icons/bs";
 
 function Auctions() {
   return (
@@ -25,6 +26,10 @@ function Auctions() {
             time={time}
           />
         ))}
+      </div>
+      <div className={auctionStyles.ctaContainer}>
+        <p className={auctionStyles.cta}>See More</p>
+        <BsArrowUpRightSquare className={auctionStyles.ctaIcon} />
       </div>
     </div>
   );

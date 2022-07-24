@@ -7,6 +7,10 @@
     padding: 30px;
 }
 
+.menuIcon {
+    display: none;
+}
+
 .navList {
     display: flex;
     flex-direction: row;
@@ -36,10 +40,28 @@
 }
 
 @media screen and (max-width: 760px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+
     .navList,
     .navItem,
     .navBtn {
         display: none;
+    }
+
+    .menuIcon {
+        display: block;
+        padding: 4px;
+        color: var(--purple);
+        font-size: 2rem;
+        border: 1px solid var(--light-purple);
+        border-radius: 5px;
     }
   
   }

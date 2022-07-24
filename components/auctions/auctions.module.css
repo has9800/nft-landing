@@ -26,6 +26,26 @@
     font-size: 1.5rem;
 }
 
+.ctaContainer {
+    width: 130px;
+    margin: 0 auto 50px;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-purple);
+}
+
+.cta,
+.ctaIcon {
+    margin: 0 5px;
+    color: var(--purple);
+    font-size: .9rem;
+    text-align: center;
+}
+
 .circle {
     width: 8px;
     height: 8px;
@@ -44,5 +64,11 @@
     }
     100% {
       box-shadow: 0 0 0 20px rgba(86, 19, 211, 0);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .auctionsContainer {
+        justify-content: flex-start;
     }
 }
