@@ -6,7 +6,12 @@ function Auctions() {
   return (
     <div>
       <div className={auctionStyles.headingContainer}>
-        <h1 className={auctionStyles.heading}>Latest Live Auctions</h1>
+        <div className={auctionStyles.auctionsHeadingContainer}>
+          <h1 className={auctionStyles.heading}>Latest Live Auctions </h1>
+          <div
+            className={`${auctionStyles.circle} ${auctionStyles.pulse} `}
+          ></div>
+        </div>
       </div>
       <div className={auctionStyles.auctionsContainer}>
         {auctionData.map(({ id, url, title, likes, bids, price, time }) => (

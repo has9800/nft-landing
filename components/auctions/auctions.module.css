@@ -4,6 +4,15 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.auctionsHeadingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .headingContainer {
@@ -12,6 +21,28 @@
 }
 
 .heading {
+    margin: 0 5px 0 0;
     color: var(--light-grey);
     font-size: 1.5rem;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    background: var(--purple);
+}
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(123, 2, 236, 0.521);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(86, 19, 211, 0);
+    }
 }
