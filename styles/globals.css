@@ -1,9 +1,71 @@
+:root {
+  /* colors */
+  --black: #060714;
+  --dark-grey: #262840;
+  --medium-grey: #7780A1;
+  --light-grey: #DDE0E8;
+  --milky-white: #F1F1F6;
+  --off-white: #F2F3F6;
+  --white: #FFFFFF;
+  --blue: #2A27C9;
+  --purple: #514CFF;
+  --light-purple: rgba(81, 76, 255, 0.25);
+  --teal: #76DECC;
+  --pink: #EA6CBC;
+  --red: #FB4539;
+}
+
+
+/* -----------------RESETS-------------------- */
+/* box sixing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* form reset */
+input,
+button,
+text,
+textarea,
+select {
+  font: inherit;
+}
+
+/* reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* reset font weights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+
+
 html,
 body {
   padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--black);
 }
 
 a {
@@ -13,14 +75,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
