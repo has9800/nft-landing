@@ -70,5 +70,7 @@
 @media screen and (max-width: 760px) {
     .auctionsContainer {
         justify-content: flex-start;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
     }
 }
