@@ -82,7 +82,7 @@
 }
 
 .featuresImage {
-    width: 70%;
+    width: 40%;
 }
 
 @media screen and (max-width: 760px) {
@@ -112,7 +112,8 @@
     }
 
     .featuresImage {
-        width: 100%;
+        width: 80%;
+        height: 60%;
     }
 
     .featuresBtnContainer {

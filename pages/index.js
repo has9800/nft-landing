@@ -1,4 +1,11 @@
-import { Layout, Navbar, Hero, Auctions, FeaturesInfo } from "../components";
+import {
+  Layout,
+  Navbar,
+  Hero,
+  Auctions,
+  FeaturesInfo,
+  Stats,
+} from "../components";
 import features1 from "../assets/features1.png";
 
 export default function Home() {
@@ -13,6 +20,7 @@ export default function Home() {
         desc="Ut amet vulputate faucibus vitae semper eget auctor. Diam tempor pulvinar ultricies dolor feugiat aliquam commodo."
         url={features1.src}
       />
+      <Stats />
     </Layout>
   );
 }

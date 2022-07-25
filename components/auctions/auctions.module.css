@@ -1,11 +1,18 @@
 .auctionsContainer {
     margin: 50px 0;
+    padding: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.auctionsContainer::-webkit-scrollbar {
+    display: none;
 }
 
 .auctionsHeadingContainer {
@@ -69,8 +76,6 @@
 
 @media screen and (max-width: 760px) {
     .auctionsContainer {
-        justify-content: flex-start;
-        overflow-x: scroll;
-        scroll-behavior: smooth;
+      padding: 0;
     }
 }

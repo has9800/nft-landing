@@ -1,0 +1,17 @@
+.servicesContainer {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.serviceImageContainer {
+    margin: 0 10px;
+}
+
+.serviceImage {
+    width: 50%;
+    height: 50%;
+}
