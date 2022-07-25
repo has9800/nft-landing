@@ -70,6 +70,7 @@
 
     .statsCard {
         margin: 0 8px;
+        height: 50px;
     }
 
     .statsText {
