@@ -5,12 +5,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 
 .featuresContent {
-    justify-self: flex-end;
-    width: 50%;
+    justify-self: flex-start;
+    width: 100%;
     color: var(--milky-white);
     text-align: left;
 }
@@ -82,7 +82,7 @@
 }
 
 .featuresImage {
-    width: 40%;
+    width: 100%;
 }
 
 @media screen and (max-width: 760px) {

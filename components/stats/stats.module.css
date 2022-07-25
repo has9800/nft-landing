@@ -21,7 +21,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 50px;
+    height: 100px;
     margin: 0 5px;
 }
 
@@ -70,7 +70,6 @@
 
     .statsCard {
         margin: 0 8px;
-        height: 50px;
     }
 
     .statsText {
