@@ -43,7 +43,7 @@
 
 .statsNumbersContainer,
 .statsNumbers {
-    margin: 50px auto 40px;
+    margin: 10px auto 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -56,6 +56,7 @@
     color: var(--milky-white);
     font-size: 2.5rem;
     font-weight: 600;
+    letter-spacing: 1.5px;
 }
 
 .statNumberDesc {
@@ -70,6 +71,11 @@
 
     .statsCard {
         margin: 0 8px;
+    }
+
+    .statNumber {
+        font-size: 3.7rem;
+        letter-spacing: 5px;
     }
 
     .statsText {
